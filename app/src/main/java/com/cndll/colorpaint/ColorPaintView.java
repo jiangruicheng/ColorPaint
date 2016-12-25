@@ -48,9 +48,9 @@ public class ColorPaintView extends View {
         paint.setStrokeWidth(getWidth() / 80);
         drawScale(canvas, paint, 64);
         //drawGuide(canvas, paint, 45);
-        //drawGuide(canvas, paint, 45+90);
+        drawGuide(canvas, paint, 45+90);
         drawGuide(canvas, paint, 45 + 90 * 2);
-        drawGuide(canvas, paint, 45 + 90 * 3);
+        //drawGuide(canvas, paint, 45 + 90 * 3);
     }
 
     private void drawScale(Canvas canvas, Paint paint, int scalenub) {
